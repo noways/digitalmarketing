@@ -55,4 +55,13 @@ $(document).ready(function () {
     $("#closeModal").click(function(){
       $("#contactUsModal").modal("hide");
     });
+
+    $('.nav-item').click(function(){
+      setTimeout(function () {
+        const navbarNav = document.querySelector('#navbarNav');
+        if(navbarNav.classList.contains('show')) {
+            $('#navbar-toggler').click();
+        }
+      }, 1000);
+    });
 });
