@@ -3,13 +3,13 @@
 $(document).ready(function () {
     //Owl
     $('.hero-slider').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         items: 1,
         dots: false,
         navText: ['PREV', 'NEXT'],
         smartSpeed: 1000,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 7000,
         responsive: {
             0: {
