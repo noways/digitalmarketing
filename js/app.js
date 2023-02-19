@@ -50,5 +50,9 @@ $(document).ready(function () {
         margin: 24,
         autoplay: true,
         autoplayTimeout: 4000,
-    })
+    });
+
+    $("#closeModal").click(function(){
+      $("#contactUsModal").modal("hide");
+    });
 });
