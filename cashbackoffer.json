@@ -1,0 +1,32 @@
+{
+   "internal_type":"ecommerce",
+   "value":10,
+   "expire_date":"2030-12-31T00:00:00-03:00",
+   "partner_id":853,
+   "start_date":"2016-02-24T00:00:00-03:00",
+   "type":"percentage",
+   "id":0,
+   "cashback_category":false,
+   "promotional":true,
+   "previous":{
+      "internal_type":"ecommerce",
+      "value":5,
+      "expire_date":"9999-12-31T23:59:59-03:00",
+      "partner_id":853,
+      "start_date":"2020-08-05T12:51:00-03:00",
+      "type":"percentage",
+      "id":123,
+      "cashback_category":false,
+      "promotional":false
+   },
+   "related_modifier":{
+      "premium_campaign":{
+         "id":123
+      },
+      "premium_group":{
+         "name":"Benefício de Funcionários Méliuz",
+         "id":123
+      }
+   },
+   "user_id":123
+}
