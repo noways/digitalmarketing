@@ -264,6 +264,8 @@ text-align: center;}
     position: relative;
     overflow: hidden;
     z-index: 2;
+    /* max-width: 315px;
+    text-align: -webkit-center; */
 }
 
 .project h6 {
